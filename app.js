@@ -32,8 +32,8 @@ const subjects = [
             'Eigenvalues and eigenvectors',
             'LU decomposition'
         ],
-        link: 'https://youtu.be/DrCeIbpfuzE?si=K6Mb5_COrYCLHo3Z',
-        embed: 'https://www.youtube.com/embed/DrCeIbpfuzE'
+        link: 'https://www.youtube.com/playlist?list=PLgjejdknTfWNZBdiAI9k85B0GWDqBI0G4',
+        embed: 'https://www.youtube.com/embed/videoseries?list=PLgjejdknTfWNZBdiAI9k85B0GWDqBI0G4'
     },
     {
         id: 'maths-calculus',
@@ -48,8 +48,8 @@ const subjects = [
             'Mean value theorem',
             'Integration'
         ],
-        link: 'https://youtu.be/0oaxIzXQB2E?si=UlbLMsVvS4hxklaR',
-        embed: 'https://www.youtube.com/embed/0oaxIzXQB2E'
+        link: 'https://www.youtube.com/playlist?list=PLu4m54WggX8d7Wd-oB3n9tOPhW_r5tZ4j',
+        embed: 'https://www.youtube.com/embed/videoseries?list=PLu4m54WggX8d7Wd-oB3n9tOPhW_r5tZ4j'
     },
     {
         id: 'maths-probability',
@@ -64,8 +64,8 @@ const subjects = [
             'Mean, median, mode and standard deviation',
             'Conditional probability and Bayes theorem'
         ],
-        link: 'https://youtu.be/qNGDD_Rh8ps?si=ff4VAyKlLxdeTN1O',
-        embed: 'https://www.youtube.com/embed/qNGDD_Rh8ps'
+        link: 'https://www.youtube.com/playlist?list=PLIU86IV5HmhQdS7PuUf5me6_cyW0bkfpj',
+        embed: 'https://www.youtube.com/embed/videoseries?list=PLIU86IV5HmhQdS7PuUf5me6_cyW0bkfpj'
     },
     // Technical Part
     {
@@ -82,8 +82,8 @@ const subjects = [
             'Minimization',
             'Number representations & computer arithmetic (fixed and floating point)'
         ],
-        link: 'https://www.youtube.com/live/t4jKBFuFZGA?si=bH5jm1TOfOnc1Azy',
-        embed: 'https://www.youtube.com/embed/t4jKBFuFZGA'
+        link: 'https://www.youtube.com/playlist?list=PLs5_RdaOMsTsp-A2M8Fh0c8KkPz7HlPqJ',
+        embed: 'https://www.youtube.com/embed/videoseries?list=PLs5_RdaOMsTsp-A2M8Fh0c8KkPz7HlPqJ'
     },
     {
         id: 'tech-coa',
@@ -99,8 +99,8 @@ const subjects = [
             'Memory hierarchy: cache, main memory, secondary storage',
             'I/O interface (interrupt and DMA mode)'
         ],
-        link: 'https://www.youtube.com/live/ZsXArRJewYo?si=KIRk-6tAhG15hULG',
-        embed: 'https://www.youtube.com/embed/ZsXArRJewYo'
+        link: 'https://www.youtube.com/playlist?list=PL3B20EB15EE9646D9',
+        embed: 'https://www.youtube.com/embed/videoseries?list=PL3B20EB15EE9646D9'
     },
     {
         id: 'tech-programming-ds',
@@ -117,8 +117,8 @@ const subjects = [
             'Binary search trees and binary heaps',
             'Graphs representations'
         ],
-        link: 'https://www.youtube.com/live/QBrDsG3MTkw?si=T9D3i1mOjAzT5z7d',
-        embed: 'https://www.youtube.com/embed/QBrDsG3MTkw'
+        link: 'https://www.youtube.com/playlist?list=PLG9aCp4uE-s0H23mP3sM9wH7QvR8W2h7E',
+        embed: 'https://www.youtube.com/embed/videoseries?list=PLG9aCp4uE-s0H23mP3sM9wH7QvR8W2h7E'
     },
     {
         id: 'tech-algorithms',
@@ -134,8 +134,8 @@ const subjects = [
             'Algorithm design: divide‐and‐conquer',
             'Graph traversals, minimum spanning trees, shortest paths'
         ],
-        link: 'https://www.youtube.com/live/Z5wuGWZR9d0?si=Tk8o6EGXdGqgRqOc',
-        embed: 'https://www.youtube.com/embed/Z5wuGWZR9d0'
+        link: 'https://www.youtube.com/playlist?list=PLvTTv60o7qj-PgF3DhvvTK6_-g_FU8wCT',
+        embed: 'https://www.youtube.com/embed/videoseries?list=PLvTTv60o7qj-PgF3DhvvTK6_-g_FU8wCT'
     },
     {
         id: 'tech-toc',
@@ -150,8 +150,8 @@ const subjects = [
             'Regular and context-free languages, pumping lemma',
             'Turing machines and undecidability'
         ],
-        link: 'https://www.youtube.com/live/I60z8_pVWiI?si=hZUhXf3kLmn625xx',
-        embed: 'https://www.youtube.com/embed/I60z8_pVWiI'
+        link: 'https://www.youtube.com/playlist?list=PLG9aCp4uE-s21t3nI-j6k3N6F5Nq8T2vB',
+        embed: 'https://www.youtube.com/embed/videoseries?list=PLG9aCp4uE-s21t3nI-j6k3N6F5Nq8T2vB'
     },
     {
         id: 'tech-compiler-design',
@@ -167,8 +167,8 @@ const subjects = [
             'Local optimization',
             'Data flow analysis: constant propagation, liveness, common sub-expression'
         ],
-        link: 'https://www.youtube.com/live/uGuq6TYPmZ4?si=oeuX0ReNxc_EUVlu',
-        embed: 'https://www.youtube.com/embed/uGuq6TYPmZ4'
+        link: 'https://www.youtube.com/playlist?list=PLKLGr8sEyGFJ-W4W_zU5O1N73wK7p8wK6',
+        embed: 'https://www.youtube.com/embed/videoseries?list=PLKLGr8sEyGFJ-W4W_zU5O1N73wK7p8wK6'
     },
     {
         id: 'tech-operating-systems',
@@ -185,8 +185,8 @@ const subjects = [
             'Memory management and virtual memory',
             'File systems'
         ],
-        link: 'https://www.youtube.com/live/a3YDvmKbGrA?si=zLFVqbednUC0tdx6',
-        embed: 'https://www.youtube.com/embed/a3YDvmKbGrA'
+        link: 'https://www.youtube.com/playlist?list=PLvTTv60o7qj_PgF3DhvvTK6_-g_FU8wCT',
+        embed: 'https://www.youtube.com/embed/videoseries?list=PLvTTv60o7qj_PgF3DhvvTK6_-g_FU8wCT'
     },
     {
         id: 'tech-databases',
@@ -202,8 +202,8 @@ const subjects = [
             'File organization & indexing (B and B+ trees)',
             'Transactions and concurrency control'
         ],
-        link: 'https://www.youtube.com/live/khKoJUpcXUE?si=QYMTceVP7f4AZ5IK',
-        embed: 'https://www.youtube.com/embed/khKoJUpcXUE'
+        link: 'https://www.youtube.com/playlist?list=PLG9aCp4uE-s1H2OZGJ2AMu_yihTJBHLxf',
+        embed: 'https://www.youtube.com/embed/videoseries?list=PLG9aCp4uE-s1H2OZGJ2AMu_yihTJBHLxf'
     },
     {
         id: 'tech-networks',
@@ -222,8 +222,8 @@ const subjects = [
             'Transport layer: flow/congestion control, UDP, TCP, sockets',
             'Application layer protocols: DNS, SMTP, HTTP, FTP, Email'
         ],
-        link: 'https://www.youtube.com/live/3SbtNuK5YZ8?si=y1FNi80x7nbTEDwV',
-        embed: 'https://www.youtube.com/embed/3SbtNuK5YZ8'
+        link: 'https://www.youtube.com/playlist?list=PLG9aCp4uE-s0xddCBjwMDnEVyc523WbA2',
+        embed: 'https://www.youtube.com/embed/videoseries?list=PLG9aCp4uE-s0xddCBjwMDnEVyc523WbA2'
     },
     // General Aptitude
     {
@@ -713,10 +713,12 @@ function saveStatuses() {
     localStorage.setItem(STORAGE_STATUS_KEY, JSON.stringify(subjectStatuses));
 }
 
+// Save notes to store
 function saveNotesToStore() {
     localStorage.setItem(STORAGE_NOTES_KEY, JSON.stringify(subjectNotes));
 }
 
+// Save checklists to store
 function saveChecklistsToStore() {
     localStorage.setItem(STORAGE_CHECKLIST_KEY, JSON.stringify(subjectChecklists));
 }
