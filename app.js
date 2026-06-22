@@ -32,8 +32,8 @@ const subjects = [
             'Eigenvalues and eigenvectors',
             'LU decomposition'
         ],
-        link: 'https://www.youtube.com/playlist?list=PLgjejdknTfWNZBdiAI9k85B0GWDqBI0G4',
-        embed: 'https://www.youtube.com/embed/videoseries?list=PLgjejdknTfWNZBdiAI9k85B0GWDqBI0G4'
+        link: 'https://youtube.com/playlist?list=PLIPZ2_p3RNHhGLQ1ZT37KLpBMAD90CM4_&si=BGXbBiy16mjrOAt7',
+        embed: 'https://www.youtube.com/embed/videoseries?list=PLIPZ2_p3RNHhGLQ1ZT37KLpBMAD90CM4_'
     },
     {
         id: 'maths-calculus',
