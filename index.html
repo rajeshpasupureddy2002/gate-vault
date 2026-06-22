@@ -16,6 +16,38 @@
                 <h1>GATE Study Vault 2027</h1>
                 <p>IIT Madras | Organizing Institute • Engineering Mathematics & Technical Hub</p>
             </div>
+
+            <!-- Pomodoro Study Timer -->
+            <div class="pomodoro-container">
+                <div class="pomodoro-timer">
+                    <div class="timer-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <div class="timer-text">
+                        <span id="timerDisplay" class="timer-display">25:00</span>
+                        <span id="timerLabel" class="timer-label">Study Session</span>
+                    </div>
+                </div>
+                <div class="timer-controls">
+                    <button id="timerPlayBtn" class="timer-btn-control" title="Start/Pause">
+                        <svg id="playIcon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                        <svg id="pauseIcon" style="display:none;" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+                        </svg>
+                    </button>
+                    <button id="timerResetBtn" class="timer-btn-control" title="Reset">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 1121.21 7.89M9 11l3 3L22 4" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Global Study Progress Stats -->
             <div class="header-stats">
                 <div class="stat-item">
                     <div class="stat-val" id="overallCompletion">0%</div>
@@ -53,14 +85,13 @@
 
                 <!-- Grid of Subject Cards -->
                 <div class="subject-grid" id="subjectGrid">
-                    <!-- Cards will be dynamically injected by app.js -->
                     <div style="grid-column: 1/-1; text-align: center; padding: 3rem; color: var(--text-muted);">
                         Loading subjects and playlists...
                     </div>
                 </div>
             </section>
 
-            <!-- Right Panel: Embedded Player & Notepad -->
+            <!-- Right Panel: Embedded Player & Notepad/Checklist -->
             <aside class="player-sidebar">
                 <!-- Video Player Card -->
                 <div class="player-panel">
@@ -98,20 +129,40 @@
                     </div>
                 </div>
 
-                <!-- Notes Notepad Card -->
+                <!-- Interactive Sidebar Notepad & Checklist Panel -->
                 <div class="notepad-panel">
                     <div class="notepad-header">
-                        <h4>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                            </svg>
-                            <span>Study Notes</span>
-                        </h4>
-                        <div class="save-indicator" id="saveIndicator">
+                        <div class="panel-tabs">
+                            <button class="panel-tab active" data-target="checklist" id="tabChecklist">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                                </svg>
+                                <span>Syllabus Check</span>
+                            </button>
+                            <button class="panel-tab" data-target="notes" id="tabNotes">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                </svg>
+                                <span>Study Notes</span>
+                            </button>
+                        </div>
+                        <div class="save-indicator" id="saveIndicator" style="display: none;">
                             <span id="saveText">Saved</span>
                         </div>
                     </div>
-                    <textarea id="notesArea" class="notes-textarea" placeholder="Select a subject to write down important notes, equations, or lecture timestamps..." disabled></textarea>
+
+                    <!-- Syllabus Checklist Content Area -->
+                    <div class="panel-content active" id="checklistContent">
+                        <div class="checklist-placeholder" id="checklistPlaceholder">
+                            Select a subject card to view its detailed syllabus checklist.
+                        </div>
+                        <div class="checklist-items" id="checklistItems" style="display: none;"></div>
+                    </div>
+
+                    <!-- Notes Content Area -->
+                    <div class="panel-content" id="notesContent" style="display: none;">
+                        <textarea id="notesArea" class="notes-textarea" placeholder="Select a subject to write down important notes, equations, or lecture timestamps..." disabled></textarea>
+                    </div>
                 </div>
             </aside>
         </main>

@@ -8,6 +8,14 @@ const subjects = [
         instructor: 'Sridhar',
         source: 'Unacademy',
         description: 'Propositional and first order logic. Sets, relations, functions, partial orders and lattices. Monoids, Groups. Graphs: connectivity, matching, colouring. Combinatorics: counting, recurrence relations, generating functions.',
+        subtopics: [
+            'Propositional and first order logic',
+            'Sets, relations, functions',
+            'Partial orders and lattices',
+            'Monoids and Groups',
+            'Graphs: connectivity, matching, colouring',
+            'Combinatorics: counting, recurrence relations, generating functions'
+        ],
         link: 'https://youtube.com/playlist?list=PLOG_8OlGMp73__IUE4eSoLgaufkY7JWTO&si=V9FyNIYL7eEPNIFE',
         embed: 'https://www.youtube.com/embed/videoseries?list=PLOG_8OlGMp73__IUE4eSoLgaufkY7JWTO'
     },
@@ -18,6 +26,12 @@ const subjects = [
         instructor: 'Sachin Mittal',
         source: 'YouTube',
         description: 'Matrices, determinants, system of linear equations, eigenvalues and eigenvectors, LU decomposition.',
+        subtopics: [
+            'Matrices and determinants',
+            'System of linear equations',
+            'Eigenvalues and eigenvectors',
+            'LU decomposition'
+        ],
         link: 'https://youtu.be/DrCeIbpfuzE?si=K6Mb5_COrYCLHo3Z',
         embed: 'https://www.youtube.com/embed/DrCeIbpfuzE'
     },
@@ -28,6 +42,12 @@ const subjects = [
         instructor: 'Dr. GP Sir',
         source: 'YouTube',
         description: 'Limits, continuity and differentiability, Maxima and minima, Mean value theorem, Integration.',
+        subtopics: [
+            'Limits, continuity and differentiability',
+            'Maxima and minima',
+            'Mean value theorem',
+            'Integration'
+        ],
         link: 'https://youtu.be/0oaxIzXQB2E?si=UlbLMsVvS4hxklaR',
         embed: 'https://www.youtube.com/embed/0oaxIzXQB2E'
     },
@@ -38,6 +58,12 @@ const subjects = [
         instructor: 'Dr. GP Sir',
         source: 'YouTube',
         description: 'Random variables, Uniform, normal, exponential, Poisson and binomial distributions. Mean, median, mode and standard deviation. Conditional probability and Bayes theorem.',
+        subtopics: [
+            'Random variables & standard distributions (Uniform, Normal, Exponential)',
+            'Poisson and Binomial distributions',
+            'Mean, median, mode and standard deviation',
+            'Conditional probability and Bayes theorem'
+        ],
         link: 'https://youtu.be/qNGDD_Rh8ps?si=ff4VAyKlLxdeTN1O',
         embed: 'https://www.youtube.com/embed/qNGDD_Rh8ps'
     },
@@ -49,6 +75,13 @@ const subjects = [
         instructor: 'GFG',
         source: 'GeeksforGeeks',
         description: 'Boolean algebra. Combinational and sequential circuits. Minimization. Number representations and computer arithmetic (fixed and floating point).',
+        subtopics: [
+            'Boolean algebra',
+            'Combinational circuits',
+            'Sequential circuits',
+            'Minimization',
+            'Number representations & computer arithmetic (fixed and floating point)'
+        ],
         link: 'https://www.youtube.com/live/t4jKBFuFZGA?si=bH5jm1TOfOnc1Azy',
         embed: 'https://www.youtube.com/embed/t4jKBFuFZGA'
     },
@@ -59,6 +92,13 @@ const subjects = [
         instructor: 'Bharat Acharya Sir',
         source: 'YouTube',
         description: 'Machine instructions and addressing modes. ALU, data‐path and control unit. Instruction pipelining, pipeline hazards. Memory hierarchy: cache, main memory and secondary storage; I/O interface (interrupt and DMA mode).',
+        subtopics: [
+            'Machine instructions and addressing modes',
+            'ALU, data‐path and control unit',
+            'Instruction pipelining and pipeline hazards',
+            'Memory hierarchy: cache, main memory, secondary storage',
+            'I/O interface (interrupt and DMA mode)'
+        ],
         link: 'https://www.youtube.com/live/ZsXArRJewYo?si=KIRk-6tAhG15hULG',
         embed: 'https://www.youtube.com/embed/ZsXArRJewYo'
     },
@@ -69,6 +109,14 @@ const subjects = [
         instructor: 'Vishvadeep Gothi',
         source: 'YouTube',
         description: 'Programming in C. Recursion. Arrays, stacks, queues, linked lists, trees, binary search trees, binary heaps, graphs.',
+        subtopics: [
+            'Programming in C',
+            'Recursion',
+            'Arrays, stacks, and queues',
+            'Linked lists and trees',
+            'Binary search trees and binary heaps',
+            'Graphs representations'
+        ],
         link: 'https://www.youtube.com/live/QBrDsG3MTkw?si=T9D3i1mOjAzT5z7d',
         embed: 'https://www.youtube.com/embed/QBrDsG3MTkw'
     },
@@ -79,6 +127,13 @@ const subjects = [
         instructor: 'Dr. Khaleel Khan',
         source: 'YouTube',
         description: 'Searching, sorting, hashing. Asymptotic worst case time and space complexity. Algorithm design techniques: greedy, dynamic programming and divide‐and‐conquer. Graph traversals, minimum spanning trees, shortest paths.',
+        subtopics: [
+            'Searching, sorting, and hashing',
+            'Asymptotic worst case time and space complexity',
+            'Algorithm design: greedy & dynamic programming',
+            'Algorithm design: divide‐and‐conquer',
+            'Graph traversals, minimum spanning trees, shortest paths'
+        ],
         link: 'https://www.youtube.com/live/Z5wuGWZR9d0?si=Tk8o6EGXdGqgRqOc',
         embed: 'https://www.youtube.com/embed/Z5wuGWZR9d0'
     },
@@ -89,6 +144,12 @@ const subjects = [
         instructor: 'Ankit Doyal',
         source: 'YouTube',
         description: 'Regular expressions and finite automata. Context-free grammars and push-down automata. Regular and context-free languages, pumping lemma. Turing machines and undecidability.',
+        subtopics: [
+            'Regular expressions and finite automata',
+            'Context-free grammars and push-down automata',
+            'Regular and context-free languages, pumping lemma',
+            'Turing machines and undecidability'
+        ],
         link: 'https://www.youtube.com/live/I60z8_pVWiI?si=hZUhXf3kLmn625xx',
         embed: 'https://www.youtube.com/embed/I60z8_pVWiI'
     },
@@ -99,6 +160,13 @@ const subjects = [
         instructor: 'Deva Sir',
         source: 'YouTube',
         description: 'Lexical analysis, parsing, syntax-directed translation. Runtime environments. Intermediate code generation. Local optimization, Data flow analyses: constant propagation, liveness analysis, common sub expression elimination.',
+        subtopics: [
+            'Lexical analysis and parsing',
+            'Syntax-directed translation',
+            'Runtime environments & intermediate code generation',
+            'Local optimization',
+            'Data flow analysis: constant propagation, liveness, common sub-expression'
+        ],
         link: 'https://www.youtube.com/live/uGuq6TYPmZ4?si=oeuX0ReNxc_EUVlu',
         embed: 'https://www.youtube.com/embed/uGuq6TYPmZ4'
     },
@@ -109,6 +177,14 @@ const subjects = [
         instructor: 'Dr. Khaleel Khan',
         source: 'YouTube',
         description: 'System calls, processes, threads, inter‐process communication, concurrency and synchronization. Deadlock. CPU and I/O scheduling. Memory management and virtual memory. File systems.',
+        subtopics: [
+            'System calls, processes, and threads',
+            'Inter‐process communication, concurrency, and synchronization',
+            'Deadlock prevention, avoidance, and detection',
+            'CPU and I/O scheduling',
+            'Memory management and virtual memory',
+            'File systems'
+        ],
         link: 'https://www.youtube.com/live/a3YDvmKbGrA?si=zLFVqbednUC0tdx6',
         embed: 'https://www.youtube.com/embed/a3YDvmKbGrA'
     },
@@ -119,6 +195,13 @@ const subjects = [
         instructor: 'Vishvadeep Gothi',
         source: 'YouTube',
         description: 'ER‐model. Relational model: relational algebra, tuple calculus, SQL. Integrity constraints, normal forms. File organization, indexing (e.g., B and B+ trees). Transactions and concurrency control.',
+        subtopics: [
+            'ER‐model',
+            'Relational model: relational algebra, tuple calculus, and SQL',
+            'Integrity constraints and normal forms',
+            'File organization & indexing (B and B+ trees)',
+            'Transactions and concurrency control'
+        ],
         link: 'https://www.youtube.com/live/khKoJUpcXUE?si=QYMTceVP7f4AZ5IK',
         embed: 'https://www.youtube.com/embed/khKoJUpcXUE'
     },
@@ -129,8 +212,18 @@ const subjects = [
         instructor: 'Ankit Doyal',
         source: 'YouTube',
         description: 'Concept of layering: OSI and TCP/IP Protocol Stacks; Basics of packet, circuit and virtual circuit-switching; Data link layer: framing, error detection, Medium Access Control, Ethernet bridging; Routing protocols: shortest path, flooding, distance vector and link state routing; Fragmentation and IP addressing, IPv4, CIDR notation, Basics of IP support protocols (ARP, DHCP, ICMP), Network Address Translation (NAT); Transport layer: flow control and congestion control, UDP, TCP, sockets; Application layer protocols: DNS, SMTP, HTTP, FTP, Email.',
+        subtopics: [
+            'OSI and TCP/IP Protocol Stacks (Layering concepts)',
+            'Packet, circuit, and virtual circuit-switching basics',
+            'Data link layer: framing, error detection, MAC, Ethernet bridging',
+            'Routing protocols: shortest path, flooding, distance vector, link state',
+            'Fragmentation, IP addressing, IPv4, CIDR notation',
+            'IP support protocols (ARP, DHCP, ICMP), NAT',
+            'Transport layer: flow/congestion control, UDP, TCP, sockets',
+            'Application layer protocols: DNS, SMTP, HTTP, FTP, Email'
+        ],
         link: 'https://www.youtube.com/live/3SbtNuK5YZ8?si=y1FNi80x7nbTEDwV',
-        embed: 'https://www.youtube.com/live/3SbtNuK5YZ8'
+        embed: 'https://www.youtube.com/embed/3SbtNuK5YZ8'
     },
     // General Aptitude
     {
@@ -140,6 +233,13 @@ const subjects = [
         instructor: 'Saurabh Thakur',
         source: 'Apti Xpress',
         description: 'Basic English grammar: tenses, articles, adjectives, prepositions, conjunctions, verb-noun agreement, and other parts of speech. Basic vocabulary: words, idioms, and phrases in context, reading and comprehension, Narrative sequencing.',
+        subtopics: [
+            'Basic English grammar (tenses, articles, adjectives, prepositions, conjunctions)',
+            'Verb-noun agreement, other parts of speech',
+            'Basic vocabulary: words, idioms, phrases in context',
+            'Reading and comprehension',
+            'Narrative sequencing'
+        ],
         link: 'https://youtube.com/playlist?list=PLNEqvET0cb64A4pPR97wyMdHuZ8sN4VGr',
         embed: 'https://www.youtube.com/embed/videoseries?list=PLNEqvET0cb64A4pPR97wyMdHuZ8sN4VGr'
     },
@@ -150,6 +250,13 @@ const subjects = [
         instructor: 'Saurabh Thakur',
         source: 'Apti Xpress',
         description: 'Data interpretation: data graphs (bar graphs, pie charts, and other graphs representing data), 2- and 3-dimensional plots, maps, and tables. Numerical computation and estimation: ratios, percentages, powers, exponents and logarithms, permutations and combinations, and series. Mensuration and geometry. Elementary statistics and probability.',
+        subtopics: [
+            'Data interpretation: graphs, charts, maps, and tables',
+            'Numerical computation & estimation (ratios, percentages, logs, series)',
+            'Permutations and combinations',
+            'Mensuration and geometry',
+            'Elementary statistics and probability'
+        ],
         link: 'https://youtube.com/playlist?list=PLNEqvET0cb64br4B9Qa8omDAFPDP0cyQC',
         embed: 'https://www.youtube.com/embed/videoseries?list=PLNEqvET0cb64br4B9Qa8omDAFPDP0cyQC'
     },
@@ -160,6 +267,11 @@ const subjects = [
         instructor: 'Saurabh Thakur',
         source: 'Apti Xpress',
         description: 'Logic: deduction and induction, Analogy, Numerical relations and reasoning.',
+        subtopics: [
+            'Logic: deduction and induction',
+            'Analogy',
+            'Numerical relations and reasoning'
+        ],
         link: 'https://youtube.com/playlist?list=PLNEqvET0cb64br4B9Qa8omDAFPDP0cyQC',
         embed: 'https://www.youtube.com/embed/videoseries?list=PLNEqvET0cb64br4B9Qa8omDAFPDP0cyQC'
     },
@@ -170,6 +282,11 @@ const subjects = [
         instructor: 'GATE Wallah',
         source: 'Physics Wallah',
         description: 'Transformation of shapes: translation, rotation, scaling, mirroring, assembling, and grouping paper folding, cutting, and patterns in 2 and 3 dimensions.',
+        subtopics: [
+            'Transformation of shapes: translation, rotation, scaling',
+            'Mirroring, assembling, and grouping',
+            'Paper folding, cutting, and patterns in 2 and 3 dimensions'
+        ],
         link: 'https://youtube.com/playlist?list=PLvTTv60o7qj-PgF3DhvvTK6_-g_FU8wCT',
         embed: 'https://www.youtube.com/embed/videoseries?list=PLvTTv60o7qj-PgF3DhvvTK6_-g_FU8wCT'
     },
@@ -181,6 +298,13 @@ const subjects = [
         instructor: 'NetworkChuck',
         source: 'YouTube',
         description: 'Primary focus parallel learning: CCNA security, network components, routing protocols, subnets, IP, switching, secure architectures.',
+        subtopics: [
+            'Network components, routers, switches',
+            'OSI & TCP/IP stack configuration',
+            'IP addressing and custom subnetting',
+            'Routing protocols (OSPF, RIP, Static)',
+            'Network security, firewalling, and threat mitigation'
+        ],
         link: 'https://youtube.com/playlist?list=PLIhvC56v6wOPQ7V4U6hWv674PZ-9WcZf6',
         embed: 'https://www.youtube.com/embed/videoseries?list=PLIhvC56v6wOPQ7V4U6hWv674PZ-9WcZf6'
     },
@@ -191,6 +315,12 @@ const subjects = [
         instructor: 'TechWorld with Nana',
         source: 'YouTube',
         description: 'Containerization skills: Docker architecture, Dockerfiles, pod services, clustering, state management, deployments.',
+        subtopics: [
+            'Docker architecture and container lifecycles',
+            'Writing Dockerfiles and multi-stage builds',
+            'Kubernetes architecture, pods, and nodes',
+            'Kubernetes services, deployments, and cluster management'
+        ],
         link: 'https://youtube.com/playlist?list=PL4Gr5tOAPttLoy9qgECJDker2FkyrVQDg',
         embed: 'https://www.youtube.com/embed/videoseries?list=PL4Gr5tOAPttLoy9qgECJDker2FkyrVQDg'
     },
@@ -201,6 +331,13 @@ const subjects = [
         instructor: 'freeCodeCamp',
         source: 'YouTube',
         description: 'Spring Boot, Node.js, Express.js, Golang, OOPS concepts, Core Java (Collection framework), JavaScript, database integration with MySQL, JDBC, and SQL Workbench.',
+        subtopics: [
+            'Java Spring Boot framework architecture',
+            'Node.js & Express REST API design',
+            'Go (Golang) syntax & concurrent backends',
+            'OOPS principles & Java collections',
+            'Database integration: JDBC, MySQL schemas & queries'
+        ],
         link: 'https://youtu.be/35EQXmHKZYs?si=u28_0Z4H4SshYk8W',
         embed: 'https://www.youtube.com/embed/35EQXmHKZYs'
     },
@@ -211,6 +348,12 @@ const subjects = [
         instructor: 'TechWorld with Nana',
         source: 'YouTube',
         description: 'CI/CD workflows, Git/GitHub version control, AWS EC2/S3 setups, and ML & AI model deployment pipelines.',
+        subtopics: [
+            'AWS console: EC2, S3, RDS configurations',
+            'Git & GitHub advanced branching and workflows',
+            'CI/CD pipeline construction (GitHub Actions/Jenkins)',
+            'Deploying Machine Learning and AI models to cloud'
+        ],
         link: 'https://youtu.be/DlTUPt4W-9E?si=DsnC95u52fWz4T3u',
         embed: 'https://www.youtube.com/embed/DlTUPt4W-9E'
     },
@@ -221,6 +364,12 @@ const subjects = [
         instructor: 'Hussein Nasser',
         source: 'YouTube',
         description: 'Distributed event streaming, message broker mechanics, producer/consumer topics, scaling, and fault tolerance.',
+        subtopics: [
+            'Kafka architecture: brokers, partitions, zookeeper/KRaft',
+            'Creating producers & event streams',
+            'Configuring consumers & consumer groups',
+            'Replication, scaling, and message durability'
+        ],
         link: 'https://youtu.be/R873cAdS9B8?si=Z6W44T0D4vF3l1Fw',
         embed: 'https://www.youtube.com/embed/R873cAdS9B8'
     },
@@ -231,6 +380,12 @@ const subjects = [
         instructor: 'NetworkChuck',
         source: 'YouTube',
         description: 'Cyber security essentials, root cause analysis, software testing, automation, SDLC, reporting, and workflow collaboration tools (Jira, Confluence, Slack, Power BI, Tableau).',
+        subtopics: [
+            'Cyber security essentials and encryption methods',
+            'Debugging, testing automation, and root cause analysis',
+            'Software Development Life Cycle (SDLC) models',
+            'Enterprise tools integration: Jira, Confluence, Slack, Power BI, Zapier'
+        ],
         link: 'https://youtube.com/playlist?list=PLIhvC56v6wONHSPvTOCmI27Xy1Mv32Q8m',
         embed: 'https://www.youtube.com/embed/videoseries?list=PLIhvC56v6wONHSPvTOCmI27Xy1Mv32Q8m'
     }
@@ -245,12 +400,14 @@ let saveTimeout = null;
 // Local Storage Keys
 const STORAGE_STATUS_KEY = 'gate_dashboard_statuses';
 const STORAGE_NOTES_KEY = 'gate_dashboard_notes';
+const STORAGE_CHECKLIST_KEY = 'gate_dashboard_checklists';
 
 // State Initializers
 let subjectStatuses = JSON.parse(localStorage.getItem(STORAGE_STATUS_KEY)) || {};
 let subjectNotes = JSON.parse(localStorage.getItem(STORAGE_NOTES_KEY)) || {};
+let subjectChecklists = JSON.parse(localStorage.getItem(STORAGE_CHECKLIST_KEY)) || {};
 
-// Initialize statuses for new subjects
+// Initialize states for all subjects
 subjects.forEach(subject => {
     if (!subjectStatuses[subject.id]) {
         subjectStatuses[subject.id] = 'not-started';
@@ -258,9 +415,13 @@ subjects.forEach(subject => {
     if (!subjectNotes[subject.id]) {
         subjectNotes[subject.id] = '';
     }
+    if (!subjectChecklists[subject.id] || subjectChecklists[subject.id].length !== subject.subtopics.length) {
+        subjectChecklists[subject.id] = new Array(subject.subtopics.length).fill(false);
+    }
 });
 saveStatuses();
 saveNotesToStore();
+saveChecklistsToStore();
 
 // DOM Elements
 const subjectGrid = document.getElementById('subjectGrid');
@@ -278,10 +439,33 @@ const statusSelector = document.getElementById('statusSelector');
 const actionRow = document.getElementById('actionRow');
 const externalLink = document.getElementById('externalLink');
 
-// Notepad Elements
+// Sidebar Tabs & Content Elements
+const tabChecklist = document.getElementById('tabChecklist');
+const tabNotes = document.getElementById('tabNotes');
+const checklistContent = document.getElementById('checklistContent');
+const notesContent = document.getElementById('notesContent');
+const checklistPlaceholder = document.getElementById('checklistPlaceholder');
+const checklistItems = document.getElementById('checklistItems');
 const notesArea = document.getElementById('notesArea');
 const saveIndicator = document.getElementById('saveIndicator');
 const saveText = document.getElementById('saveText');
+
+// Pomodoro Timer Elements
+const timerDisplay = document.getElementById('timerDisplay');
+const timerLabel = document.getElementById('timerLabel');
+const timerPlayBtn = document.getElementById('timerPlayBtn');
+const timerResetBtn = document.getElementById('timerResetBtn');
+const playIcon = document.getElementById('playIcon');
+const pauseIcon = document.getElementById('pauseIcon');
+
+// Pomodoro State Variables
+let timerSeconds = 1500; // 25 mins
+let timerRunning = false;
+let timerInterval = null;
+let timerType = 'study'; // 'study' or 'break'
+
+// Initialize Audio Context for Beep Notifications (no MP3 files required)
+let audioCtx = null;
 
 // Setup Application
 function init() {
@@ -356,7 +540,7 @@ function renderCards() {
     });
 }
 
-// Select active subject and load in player
+// Select active subject and load in player & checklist
 function selectSubject(id) {
     activeSubjectId = id;
     const subject = subjects.find(s => s.id === id);
@@ -398,7 +582,65 @@ function selectSubject(id) {
     notesArea.disabled = false;
     notesArea.value = subjectNotes[id] || '';
     notesArea.placeholder = `Write notes for ${subject.title} here...`;
+    
+    // Setup and render syllabus checklist
+    renderChecklist(id, subject);
+
     setSaveStateIndicator('saved');
+}
+
+// Render dynamic syllabus checklist for selected subject
+function renderChecklist(id, subject) {
+    checklistPlaceholder.style.display = 'none';
+    checklistItems.style.display = 'flex';
+    checklistItems.innerHTML = '';
+
+    const listStates = subjectChecklists[id];
+
+    subject.subtopics.forEach((topic, index) => {
+        const isChecked = listStates[index];
+        
+        const item = document.createElement('div');
+        item.className = `checklist-item ${isChecked ? 'checked' : ''}`;
+        
+        item.innerHTML = `
+            <div class="checklist-checkbox"></div>
+            <span class="checklist-text">${topic}</span>
+        `;
+        
+        item.addEventListener('click', () => {
+            toggleChecklistItem(id, index, item);
+        });
+
+        checklistItems.appendChild(item);
+    });
+}
+
+// Toggle checkbox state, update local storage, and recalculate status
+function toggleChecklistItem(subjectId, topicIndex, element) {
+    const listStates = subjectChecklists[subjectId];
+    listStates[topicIndex] = !listStates[topicIndex];
+    saveChecklistsToStore();
+
+    // Update checklist UI
+    if (listStates[topicIndex]) {
+        element.classList.add('checked');
+    } else {
+        element.classList.remove('checked');
+    }
+
+    // Auto-update subject status based on checked subtopics
+    const total = listStates.length;
+    const checkedCount = listStates.filter(Boolean).length;
+    
+    let newStatus = 'not-started';
+    if (checkedCount === total) {
+        newStatus = 'completed';
+    } else if (checkedCount > 0) {
+        newStatus = 'in-progress';
+    }
+    
+    setSubjectStatus(newStatus);
 }
 
 // Update status visual selection on player
@@ -475,16 +717,22 @@ function saveNotesToStore() {
     localStorage.setItem(STORAGE_NOTES_KEY, JSON.stringify(subjectNotes));
 }
 
+function saveChecklistsToStore() {
+    localStorage.setItem(STORAGE_CHECKLIST_KEY, JSON.stringify(subjectChecklists));
+}
+
 // Save status visual indicator
 function setSaveStateIndicator(state) {
     if (state === 'saving') {
+        saveIndicator.style.display = 'block';
         saveIndicator.className = 'save-indicator saving';
         saveText.textContent = 'Saving...';
     } else if (state === 'saved') {
+        saveIndicator.style.display = 'block';
         saveIndicator.className = 'save-indicator saved';
         saveText.textContent = 'Saved';
     } else {
-        saveIndicator.className = 'save-indicator';
+        saveIndicator.style.display = 'none';
         saveText.textContent = '';
     }
 }
@@ -494,6 +742,114 @@ function formatStatusText(status) {
     if (status === 'completed') return 'Completed';
     if (status === 'in-progress') return 'In Progress';
     return 'Not Started';
+}
+
+// Switch between Sidebar tabs
+function switchSidebarTab(targetTab) {
+    if (targetTab === 'checklist') {
+        tabChecklist.classList.add('active');
+        tabNotes.classList.remove('active');
+        checklistContent.classList.add('active');
+        notesContent.classList.remove('active');
+        saveIndicator.style.display = 'none'; // Notes indicator only
+    } else if (targetTab === 'notes') {
+        tabNotes.classList.add('active');
+        tabChecklist.classList.remove('active');
+        notesContent.classList.add('active');
+        checklistContent.classList.remove('active');
+        if (activeSubjectId) setSaveStateIndicator('saved');
+    }
+}
+
+// Pomodoro Timer Functionality
+function toggleTimer() {
+    if (timerRunning) {
+        // Pause timer
+        clearInterval(timerInterval);
+        timerRunning = false;
+        playIcon.style.display = 'block';
+        pauseIcon.style.display = 'none';
+    } else {
+        // Start timer
+        timerRunning = true;
+        playIcon.style.display = 'none';
+        pauseIcon.style.display = 'block';
+        timerInterval = setInterval(tickTimer, 1000);
+    }
+}
+
+function resetTimer() {
+    clearInterval(timerInterval);
+    timerRunning = false;
+    playIcon.style.display = 'block';
+    pauseIcon.style.display = 'none';
+    
+    if (timerType === 'study') {
+        timerSeconds = 1500; // 25 mins
+        timerLabel.textContent = 'Study Session';
+    } else {
+        timerSeconds = 300; // 5 mins
+        timerLabel.textContent = 'Break Time';
+    }
+    updateTimerDisplay();
+}
+
+function tickTimer() {
+    if (timerSeconds > 0) {
+        timerSeconds--;
+        updateTimerDisplay();
+    } else {
+        // Timer completed!
+        playBeepAlert();
+        
+        // Toggle states
+        if (timerType === 'study') {
+            timerType = 'break';
+            timerSeconds = 300; // 5 mins
+            timerLabel.textContent = 'Break Time';
+            alert('Study session complete! Time to take a 5-minute break.');
+        } else {
+            timerType = 'study';
+            timerSeconds = 1500; // 25 mins
+            timerLabel.textContent = 'Study Session';
+            alert('Break is over! Time to focus.');
+        }
+        
+        toggleTimer(); // pause
+        updateTimerDisplay();
+    }
+}
+
+function updateTimerDisplay() {
+    const mins = Math.floor(timerSeconds / 60);
+    const secs = timerSeconds % 60;
+    timerDisplay.textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+}
+
+// Web Audio API custom beep generator (highly interactive notification)
+function playBeepAlert() {
+    try {
+        if (!audioCtx) {
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        }
+        
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(880, audioCtx.currentTime); // High pitch A note
+        gain.gain.setValueAtTime(0.5, audioCtx.currentTime);
+        
+        osc.start();
+        
+        // Stop oscillator after 0.5 seconds
+        osc.stop(audioCtx.currentTime + 0.5);
+    } catch (e) {
+        console.error('Audio beep failed to initialize:', e);
+    }
 }
 
 // Bind interactive handlers
@@ -525,6 +881,14 @@ function setupEventListeners() {
 
     // Text area notepad inputs
     notesArea.addEventListener('input', handleNotesInput);
+
+    // Sidebar panel switcher tabs
+    tabChecklist.addEventListener('click', () => switchSidebarTab('checklist'));
+    tabNotes.addEventListener('click', () => switchSidebarTab('notes'));
+
+    // Pomodoro Timer controls
+    timerPlayBtn.addEventListener('click', toggleTimer);
+    timerResetBtn.addEventListener('click', resetTimer);
 }
 
 // Start app

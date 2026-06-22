@@ -699,11 +699,194 @@ header {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 255, 255, 0.2);
 }
-
 /* Responsive Overrides */
 @media (max-width: 1024px) {
     .player-sidebar {
         position: static;
         width: 100%;
     }
+}
+
+/* Pomodoro Study Timer */
+.pomodoro-container {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--surface-border);
+    border-radius: 12px;
+    padding: 0.4rem 0.8rem;
+    gap: 0.65rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.pomodoro-timer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.timer-icon {
+    color: var(--accent-purple);
+    display: flex;
+    align-items: center;
+}
+.timer-text {
+    display: flex;
+    flex-direction: column;
+}
+.timer-display {
+    font-family: var(--font-heading);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1;
+}
+.timer-label {
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.timer-controls {
+    display: flex;
+    gap: 0.35rem;
+    border-left: 1px solid var(--surface-border);
+    padding-left: 0.65rem;
+}
+.timer-btn-control {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--surface-border);
+    color: var(--text-primary);
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition-smooth);
+}
+.timer-btn-control:hover {
+    background: var(--accent-purple);
+    border-color: var(--accent-purple);
+    box-shadow: 0 0 10px var(--accent-purple-glow);
+}
+.timer-btn-control svg {
+    color: var(--text-primary);
+}
+
+/* Sidebar Tab Controls */
+.panel-tabs {
+    display: flex;
+    gap: 0.25rem;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0.2rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.02);
+}
+.panel-tab {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: var(--font-heading);
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    transition: var(--transition-smooth);
+}
+.panel-tab:hover {
+    color: var(--text-secondary);
+}
+.panel-tab.active {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-primary);
+    border: 1px solid var(--surface-border);
+}
+
+/* Panel Content Configurations */
+.panel-content {
+    display: none;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.panel-content.active {
+    display: flex;
+}
+
+/* Syllabus Checklist Styles */
+.checklist-placeholder {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-align: center;
+    padding: 2.5rem 1rem;
+    border: 1px dashed var(--surface-border);
+    border-radius: 10px;
+    margin: auto 0;
+}
+.checklist-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    overflow-y: auto;
+    max-height: 240px;
+    padding-right: 0.25rem;
+    flex-grow: 1;
+}
+.checklist-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    padding: 0.5rem 0.65rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+.checklist-item:hover {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: rgba(255, 255, 255, 0.06);
+}
+.checklist-item.checked {
+    border-color: rgba(20, 184, 166, 0.15);
+    background: rgba(20, 184, 166, 0.02);
+}
+.checklist-checkbox {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    border: 1.5px solid var(--text-muted);
+    margin-top: 0.15rem;
+    flex-shrink: 0;
+    position: relative;
+    transition: var(--transition-smooth);
+}
+.checklist-item.checked .checklist-checkbox {
+    background: var(--accent-teal);
+    border-color: var(--accent-teal);
+    box-shadow: 0 0 5px var(--accent-teal-glow);
+}
+.checklist-item.checked .checklist-checkbox::after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 0px;
+    width: 3px;
+    height: 7px;
+    border: solid #090a0f;
+    border-width: 0 1.5px 1.5px 0;
+    transform: rotate(45deg);
+}
+.checklist-text {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    line-height: 1.35;
+    transition: var(--transition-smooth);
+}
+.checklist-item.checked .checklist-text {
+    color: var(--text-muted);
+    text-decoration: line-through;
 }
